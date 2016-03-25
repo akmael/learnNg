@@ -12,7 +12,8 @@ angular.module('learnNg')
        .config(function($routeProvider){
          $routeProvider
          .when('/', {
-           templateUrl: 'html/views/home.html'
+           templateUrl: 'html/views/home.html',
+           controller:  'HomeController'
          })
          .when('/about', {
            templateUrl: 'html/views/about.html'
